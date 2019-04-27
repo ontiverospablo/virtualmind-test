@@ -4,6 +4,6 @@ namespace VirtualMindTest.Intefaces
 {
     interface ICotizacion
     {
-        HttpResponseMessage Ejecutar(HttpRequestMessage Request);
+        HttpResponseMessage Ejecutar();
     }
 }

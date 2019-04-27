@@ -6,9 +6,9 @@ namespace VirtualMindTest
 {
     internal class CotizacionDolar : ICotizacion
     {
-        public HttpResponseMessage Ejecutar(HttpRequestMessage Request)
+        public HttpResponseMessage Ejecutar()
         {
-            return Request.CreateErrorResponse(HttpStatusCode.Unauthorized, "No autorizado");
+            return new HttpResponseMessage(HttpStatusCode.Unauthorized);
         }
     }
 }

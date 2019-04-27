@@ -23,7 +23,7 @@ namespace VirtualMindTest
                     break;
             }
 
-            return cotizacion.Ejecutar(Request);
+            return cotizacion.Ejecutar();
         }
     }
 }

@@ -106,6 +106,8 @@
     <Compile Include="Controllers\CotizacionDolar.cs" />
     <Compile Include="Controllers\CotizacionPesos.cs" />
     <Compile Include="Controllers\CotizacionReal.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Intefaces\ICotizacion.cs" />
     <Compile Include="VirtualMindApiConfig.cs" />
     <Compile Include="Global.asax.cs">
